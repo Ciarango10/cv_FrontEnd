@@ -1,0 +1,47 @@
+body{
+    background-color: #10101a;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+#nav a {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+pre{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.secciones{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width:50%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.secciones ul{
+    list-style: none;
+}
+
+.secciones h2{
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.lista li{
+    margin:10px;
+}

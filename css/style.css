@@ -1,0 +1,65 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-image:url('https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/HHGN43YHCJFZHM37ZLJKBFL2EY.jpg');
+}
+
+#banner{   
+    background-size: cover;
+    height: 50%;
+}
+#contenedorPrincipal{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+#contenedorImg{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+#contenedorInfo h1{
+    color: white;
+    text-align: center;
+}
+
+#contenedorImg img{
+    width: 20%;    
+}
+
+#contenedorImg nav {
+    margin-top:20px;
+}
+
+#contenedorImg nav a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+#iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#iconos i{
+    margin:10px;
+}
+
+
+
