@@ -1,12 +1,9 @@
 body{
     font-family: 'Inter', sans-serif;
     background-image:url('https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/HHGN43YHCJFZHM37ZLJKBFL2EY.jpg');
+    background-size:cover;
 }
 
-#banner{   
-    background-size: cover;
-    height: 50%;
-}
 #contenedorPrincipal{
     display: flex;
     justify-content: center;
